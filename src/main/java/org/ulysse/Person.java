@@ -17,28 +17,29 @@ public class Person {
     public int getIdentifiant() {
         return identifiant;
     }
-    public int setIdentifiant(int identifiant) {
-        return this.identifiant = identifiant;
+    public void setIdentifiant(int identifiant) {
+         this.identifiant = identifiant;
     }
 
     public String getNom() {
         return nom;
     }
-    public String setNom(String nom) {
-        return this.nom = nom;
+    public void String setNom(String nom) {
+       this.nom = nom;
     }
-    public String setAdresse(String adresse) {
-        return this.adresse = adresse;
-    }
-    public String setContact(String contact) {
-        return this.contact = contact;
+
+    public void String setAdresse(String adresse) {
+        this.adresse = adresse;
     }
     public String getAdresse() {
-        return adresse;
+         return adresse;
     }
+
     public String getContact() {
         return contact;
     }
-
+    public void String setContact(String contact) {
+       this.contact = contact;
+    }
 
 }
