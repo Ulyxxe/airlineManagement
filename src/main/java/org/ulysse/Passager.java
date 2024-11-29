@@ -8,7 +8,6 @@ public class Passager extends Person{
         this.passeport = passeport;
     }
 
-    public void String
 
     public void setPasseport(java.lang.String passeport) {
         this.passeport = passeport;
