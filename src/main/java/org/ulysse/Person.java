@@ -24,11 +24,11 @@ public class Person {
     public String getNom() {
         return nom;
     }
-    public void String setNom(String nom) {
+    public void  setNom(String nom) {
        this.nom = nom;
     }
 
-    public void String setAdresse(String adresse) {
+    public void setAdresse(String adresse) {
         this.adresse = adresse;
     }
     public String getAdresse() {
@@ -38,7 +38,7 @@ public class Person {
     public String getContact() {
         return contact;
     }
-    public void String setContact(String contact) {
+    public void setContact(String contact) {
        this.contact = contact;
     }
 
