@@ -23,5 +23,10 @@ public class Employee extends Person {
     public String getDateEmbauche() {
          return dateEmbauche;
     }
+
+    @Override
+    public String getRole(){
+        return "Employee";
+    }
 }
 

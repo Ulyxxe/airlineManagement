@@ -42,4 +42,8 @@ public class Person {
        this.contact = contact;
     }
 
+    public String getInfos(){
+        return nom + " " + adresse + " " + contact;
+    }
+    public abstract getRole();
 }

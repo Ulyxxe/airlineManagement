@@ -20,4 +20,8 @@ public class Passager extends Person{
     public String getPasseport() {
         return passeport;
     }
+    @Override
+    public String getRole(){
+        return "Passager";
+    }
 }
